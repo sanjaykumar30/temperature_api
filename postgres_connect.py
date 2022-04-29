@@ -1,5 +1,4 @@
 from psycopg2 import *
-import pandas as pd
 
 def runquery(sql):
     try:
