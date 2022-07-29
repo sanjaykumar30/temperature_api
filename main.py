@@ -6,4 +6,4 @@ app=FastAPI()
 def update_db(tem):
     sql="INSERT INTO tem_data(temperature_celcius) VALUES("+str(tem)+")"
     runquery(sql)
-    return None
+    return {'msg':"Inserted successfully"}
